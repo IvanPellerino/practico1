@@ -4,7 +4,18 @@ h1 {background: red;
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
+    transition: color .5s;
   }
+  h1:hover{
+    color: black;
+  }
+
+h2{
+  transition: color .5s;
+}
+h2:hover{
+  color: orange;
+}
 
 h3 { font-size: 30px;
   text-align: center;
@@ -46,27 +57,38 @@ h3 { font-size: 30px;
 
 #link1{
   float: left;
-  width: 25%;
+  width: 20%;
   text-align: center;
+}
+
+a:hover{
+  color: orange
 }
 
 #link2{
   float: left;
-  width: 25%;
+  width: 20%;
   text-align: center;
 
 }
 
 #link3{
   float: right;
-  width: 25%;
+  width: 20%;
   text-align: center;
 
 }
 
 #link4{
   float: right;
-  width: 25%;
+  width: 20%;
+  text-align: center;
+
+}
+
+#link5{
+  float: right;
+  width: 20%;
   text-align: center;
 
 }
@@ -99,7 +121,13 @@ p{
   font-size: 17px;
 }
 
-
+.redes{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
 
 #facebook{
   width: 30px;
@@ -131,5 +159,10 @@ p{
   background: red;
   height: 30px;
   font-family: Cooper Black;
+}
+.vuelta{
+  text-align: center;
+  font-family: Cooper Black;
+  width: 100%;
 
 }
