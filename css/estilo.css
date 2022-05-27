@@ -40,7 +40,7 @@ h3 { font-size: 30px;
 
 #nave{
   width: 100%;
-  height: 45px;
+  height: 50px;
   background-color: red;
 
 }
@@ -48,7 +48,11 @@ h3 { font-size: 30px;
 #superior{
   text-align: center;
   font-family: Cooper Black;
-  font-size: 20px;
+  font-size: 25px;
+  transition: color .5s;
+}
+#superior:hover{
+  color: orange;
 }
 
 #links{
@@ -100,24 +104,32 @@ a:hover{
 
 
 .principal{
-  width:800px;
-  height: 500px;
+  width:60%;
 }
 
 .pasos{
   text-align: center;
 }
 
+@font-face {
+  font-family: "alone";
+  src: url("../alone.ttf")
+  format('truetype');
+}
+
 #titulopasos{
   text-decoration: underline;
+  font-family: "alone";
+  font-size: 40px;
 }
 
 body { background-image: url(../cielo.jpg);
   background-attachment: fixed;
 }
 
-
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 p{
+  font-family: "Lora";
   font-size: 17px;
 }
 
@@ -159,10 +171,12 @@ p{
   background: red;
   height: 30px;
   font-family: Cooper Black;
+  font-size: 27px;
 }
 .vuelta{
   text-align: center;
   font-family: Cooper Black;
   width: 100%;
+  font-size: 30px;
 
 }
